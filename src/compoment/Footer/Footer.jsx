@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
-import logo from "./zed logo remove bg.png";
+import logo from "./ZED LOGO-FI.png";
 
 const Footer = () => {
   return (
-    <footer className="bg-slate-100 mt-36 ">
+    <footer className="bg-slate-100 mt-20 ">
       <div className="flex flex-col justify-center items-center">
         
         <Link to={'/'}>

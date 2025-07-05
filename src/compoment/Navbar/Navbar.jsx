@@ -1,6 +1,6 @@
 import { MdOutlineShoppingCart } from "react-icons/md";
 import { Link, NavLink } from "react-router-dom";
-import logo from "./zed logo remove bg.png";
+import logo from "./ZED LOGO-FI.png";
 import { useEffect, useState } from "react";
 import { getStoreAddToCard, getStoreWishList } from "../../utility/addToDB";
 
@@ -80,7 +80,7 @@ const Navbar = () => {
           </ul>
         </div>
         <Link to={"/"}>
-          <img className="w-36" src={logo} alt="" />
+          <img className="w-32 h-16 rounded-b-lg" src={logo} alt="" />
         </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
