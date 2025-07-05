@@ -20,22 +20,22 @@ const Navbar = () => {
 
   //   navbar count
   useEffect(() => {
-  const updateCounts = () => {
-    const addStoreCount = getStoreAddToCard();
-    setCardCount(addStoreCount.length);
+    const updateCounts = () => {
+      const addStoreCount = getStoreAddToCard();
+      setCardCount(addStoreCount.length);
 
-    const addStoreWishCount = getStoreWishList();
-    setWishCount(addStoreWishCount.length); 
-  };
+      const addStoreWishCount = getStoreWishList();
+      setWishCount(addStoreWishCount.length);
+    };
 
-  updateCounts();
+    updateCounts();
 
-  window.addEventListener("storageUpdate", updateCounts);
+    window.addEventListener("storageUpdate", updateCounts);
 
-  return () => {
-    window.removeEventListener("storageUpdate", updateCounts);
-  };
-}, []);
+    return () => {
+      window.removeEventListener("storageUpdate", updateCounts);
+    };
+  }, []);
 
   const navbar = (
     <>

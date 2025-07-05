@@ -34,7 +34,7 @@ const Dashboard = () => {
     0
   );
 
-//   console.log("tomar gadget", gadgets);
+  //   console.log("tomar gadget", gadgets);
 
   //  Delete ID From Card
 
@@ -61,8 +61,8 @@ const Dashboard = () => {
     });
   };
 
-  // Delete ID From Wishlist 
- 
+  // Delete ID From Wishlist
+
   const handleDeleteFromWishlist = (id) => {
     Swal.fire({
       title: "Are you sure?",
@@ -91,51 +91,68 @@ const Dashboard = () => {
   //   parse / payment button
 
   const paymentButton = () => {
-  Swal.fire({
-    title: "✅ Payment Successful!",
-    html: `<b>Total Paid: ${totalCardCost.toFixed(2)} ৳</b>`,
-    imageUrl: paymentImages,
-    imageWidth: 400,
-    imageHeight: 200,
-    imageAlt: "Payment Success Image",
-    confirmButtonColor: "#9538E2",
-    confirmButtonText: "Close",
-  }).then((result) => {
-    if (result.isConfirmed) {
-      //  LocalStorage theke remove
-      localStorage.removeItem("add-to-card");
+    Swal.fire({
+      title: "✅ Payment Successful!",
+      html: `<b>Total Paid: ${totalCardCost.toFixed(2)} ৳</b>`,
+      imageUrl: paymentImages,
+      imageWidth: 400,
+      imageHeight: 200,
+      imageAlt: "Payment Success Image",
+      confirmButtonColor: "#9538E2",
+      confirmButtonText: "Close",
+    }).then((result) => {
+      if (result.isConfirmed) {
+        //  LocalStorage theke remove
+        localStorage.removeItem("add-to-card");
 
-      //  Notify Navbar
-      window.dispatchEvent(new Event("storageUpdate")); 
+        //  Notify Navbar
+        window.dispatchEvent(new Event("storageUpdate"));
 
-      //  State reset
-      setCardList([]);
+        //  State reset
+        setCardList([]);
 
-      //  Redirect to Home
-      navigate("/");
-    }
-  });
-};
+        //  Redirect to Home
+        navigate("/");
+      }
+    });
+  };
 
   //   data effect
 
   useEffect(() => {
-    const storeAddCardList = getStoreAddToCard();
-    // console.log(storeAddCardList, gadgets);
-    const addCardList = gadgets.filter((gadget) =>
-      storeAddCardList.includes(gadget.id)
-    );
-    setCardList(addCardList);
-  }, []);
+    const updateCartData = () => {
+      const storeAddCardList = getStoreAddToCard();
+      const addCardList = gadgets.filter((gadget) =>
+        storeAddCardList.includes(gadget.id)
+      );
+      setCardList(addCardList);
+    };
+
+    updateCartData();
+    window.addEventListener("storageUpdate", updateCartData);
+
+    return () => {
+      window.removeEventListener("storageUpdate", updateCartData);
+    };
+  }, [gadgets]);
 
   useEffect(() => {
-    const storeToWishlist = getStoreWishList();
-    // console.log(storeAddCardList, gadgets);
-    const addToWishlist = gadgets.filter((gadget) =>
-      storeToWishlist.includes(gadget.id)
-    );
-    setWishList(addToWishlist);
-  }, []);
+    const updateWishData = () => {
+      const storeToWishlist = getStoreWishList();
+      const addToWishlist = gadgets.filter((gadget) =>
+        storeToWishlist.includes(gadget.id)
+      );
+      setWishList(addToWishlist);
+    };
+
+    updateWishData();
+    window.addEventListener("storageUpdate", updateWishData);
+
+    return () => {
+      window.removeEventListener("storageUpdate", updateWishData);
+    };
+  }, [gadgets]);
+  // -------------------------
 
   //   sort By price
   const handleSortBy = (sortType) => {
@@ -237,7 +254,6 @@ const Dashboard = () => {
                   </div>
                 </div>
                 <div>
-
                   {cardList.map((gadget) => (
                     <DashboardCard
                       key={gadget.id}

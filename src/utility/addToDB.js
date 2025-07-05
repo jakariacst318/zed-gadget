@@ -11,18 +11,18 @@ const getStoreAddToCard = () => {
   return [];
 };
 
-// Add item to cart
 const addToStoredCardList = (id) => {
   const storeList = getStoreAddToCard();
   if (!storeList.includes(id)) {
     storeList.push(id);
     localStorage.setItem("add-to-card", JSON.stringify(storeList));
     toast.success("✅ Added to cart");
-    window.dispatchEvent(new Event("storageUpdate")); // Notify for live updates
+    window.dispatchEvent(new Event("storageUpdate"));
   } else {
     toast.error("❌ Already exists in the cart");
   }
 };
+// ---------------------------------
 
 // Remove item from cart
 const removeFromStoredCardList = (id) => {
@@ -32,8 +32,6 @@ const removeFromStoredCardList = (id) => {
   window.dispatchEvent(new Event("storageUpdate")); // Notify for live updates
 };
 //
-
-
 
 /* ----------- WISHLIST SECTION ----------- */
 
@@ -59,7 +57,8 @@ const addToStoredWishList = (id) => {
   }
 };
 
-// Remove item from wishlist
+// Remove item from wishlist ---------------------------
+
 const removeFromStoredWishList = (id) => {
   const storeList = getStoreWishList();
   const updatedList = storeList.filter((itemId) => itemId !== id);
