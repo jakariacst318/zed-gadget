@@ -1,0 +1,11 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+
+.sora{
+  font-family: "Sora", sans-serif;
+  
+}
+html{
+  scroll-behavior: smooth;
+}

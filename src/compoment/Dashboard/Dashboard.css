@@ -1,0 +1,30 @@
+.react-tabs__tab-list {
+    border-bottom: none !important;
+    justify-content: center  !important;
+    align-items: center;
+    justify-content: center !important;
+    max-width: 600px;
+    margin: auto;
+    
+}
+.react-tabs__tab--selected {
+  border-radius: 50px !important ;
+   color: #9538E2 !important ;
+   border-radius:#9538E2 !important;
+}
+.react-tabs__tab:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  border: none !important;  
+}
+.btn {
+    outline-color: #9538E2 !important;
+}
+.react-tabs{
+    width: 1080px;
+}
+
+
+
+
+

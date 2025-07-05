@@ -1,0 +1,342 @@
+[
+    {
+        "id": "P001",
+        "product_name": "Apple iPhone 15 Pro Max",
+        "product_image": "https://i.ibb.co/wNw2w678/apple-iphone-15-pro-max-natural-titanium-official-image.webp",
+        "category": "Smartphones",
+        "price": 1299,
+        "description": "Experience the ultimate smartphone with the iPhone 15 Pro Max.",
+        "specification": [
+            "6.7-inch Super Retina XDR display",
+            "A17 Bionic chip",
+            "Triple-camera system (48MP Main, 12MP Telephoto, 12MP Ultrawide)",
+            "LiDAR Scanner",
+            "Up to 2TB storage"
+        ],
+        "availability": true,
+        "rating": 4.8
+    },
+    {
+        "id": "P002",
+        "product_name": "Samsung Galaxy S24 Ultra",
+        "product_image": "https://i.ibb.co/XrNZ8KNy/samsung-galaxy-s24-cell-phone-Golden-256gb-ai.jpg",
+        "category": "Smartphones",
+        "price": 1199,
+        "description": "Capture epic shots with Galaxy S24 Ultra's pro-grade camera.",
+        "specification": [
+            "6.8-inch QHD+ AMOLED display",
+            "Snapdragon 8 Gen 3",
+            "Quad-camera system (200MP Main)",
+            "S Pen support",
+            "5000mAh battery"
+        ],
+        "availability": true,
+        "rating": 4.7
+    },
+    {
+        "id": "P003",
+        "product_name": "Google Pixel 8 Pro",
+        "product_image": "https://i.ibb.co/pvcG5RyJ/pixel-8-pro-4-porcelain.webp",
+        "category": "Smartphones",
+        "price": 999,
+        "description": "Experience the best of Android with Google Pixel 8 Pro.",
+        "specification": [
+            "6.7-inch LTPO OLED display",
+            "Google Tensor G3 chip",
+            "50MP main camera",
+            "Face unlock",
+            "Titan M2 security chip"
+        ],
+        "availability": true,
+        "rating": 4.6
+    },
+    {
+        "id": "P004",
+        "product_name": "OnePlus 12",
+        "product_image": "https://i.ibb.co/3Y4TTQsm/Oneplus-12-800x800.png",
+        "category": "Smartphones",
+        "price": 799,
+        "description": "Fast, smooth, and powerful smartphone experience.",
+        "specification": [
+            "6.8-inch AMOLED 120Hz display",
+            "Snapdragon 8 Gen 2",
+            "Triple-camera Hasselblad system",
+            "100W fast charging",
+            "5000mAh battery"
+        ],
+        "availability": true,
+        "rating": 4.5
+    },
+    {
+        "id": "P005",
+        "product_name": "Xiaomi 14 Pro",
+        "product_image": "https://i.ibb.co/7ddVB8qj/xiaomi-14-pro-1.jpg",
+        "category": "Smartphones",
+        "price": 699,
+        "description": "Performance meets design with Xiaomi 14 Pro.",
+        "specification": [
+            "6.73-inch AMOLED display",
+            "Snapdragon 8 Gen 3",
+            "50MP Leica camera",
+            "120W wired charging",
+            "Wireless charging support"
+        ],
+        "availability": true,
+        "rating": 4.4
+    },
+    {
+        "id": "P006",
+        "product_name": "Nothing Phone 2",
+        "product_image": "https://i.ibb.co/YF2wkkwS/nothing-8.jpg",
+        "category": "Smartphones",
+        "price": 599,
+        "description": "A unique smartphone with Glyph interface.",
+        "specification": [
+            "6.7-inch OLED 120Hz display",
+            "Snapdragon 8+ Gen 1",
+            "Dual 50MP cameras",
+            "Nothing OS 2.0",
+            "Glyph LED interface"
+        ],
+        "availability": true,
+        "rating": 4.2
+    },
+    {
+        "id": "P007",
+        "product_name": "Sony Xperia 1 V",
+        "product_image": "https://i.ibb.co/svkDjfmP/Sony-Xperia-1-V.webp",
+        "category": "Smartphones",
+        "price": 1399,
+        "description": "Professional camera features in your pocket.",
+        "specification": [
+            "6.5-inch 4K OLED",
+            "Snapdragon 8 Gen 2",
+            "Triple 12MP cameras",
+            "Real-time Eye AF",
+            "Cinematography Pro mode"
+        ],
+        "availability": true,
+        "rating": 4.3
+    },
+    {
+        "id": "P008",
+        "product_name": "ASUS ROG Phone 8",
+        "product_image": "https://i.ibb.co/7J9XKWKV/asus-rog-phone-8-rebel-grey-official-image.webp",
+        "category": "Smartphones",
+        "price": 1099,
+        "description": "The ultimate gaming smartphone experience.",
+        "specification": [
+            "6.78-inch AMOLED 165Hz display",
+            "Snapdragon 8 Gen 3",
+            "AirTrigger controls",
+            "6000mAh battery",
+            "Gaming-specific cooling"
+        ],
+        "availability": true,
+        "rating": 4.6
+    },
+    {
+        "id": "P009",
+        "product_name": "Motorola Edge 50 Ultra",
+        "product_image": "https://i.ibb.co/ycRr7LC8/Motorola-Edge-50-Ultra-Nordic-Wood.webp",
+        "category": "Smartphones",
+        "price": 899,
+        "description": "Premium design with AI-powered features.",
+        "specification": [
+            "6.7-inch OLED 144Hz",
+            "Snapdragon 8s Gen 3",
+            "144MP main camera",
+            "125W TurboPower charging",
+            "Water-repellent design"
+        ],
+        "availability": true,
+        "rating": 4.4
+    },
+    {
+        "id": "P010",
+        "product_name": "Realme GT 6 Pro",
+        "product_image": "https://i.ibb.co/qLBv54GG/Realme-GT5-Pro-Black.webp",
+        "category": "Smartphones",
+        "price": 699,
+        "description": "Speed and performance redefined.",
+        "specification": [
+            "6.74-inch AMOLED 144Hz",
+            "Snapdragon 8 Gen 3",
+            "32MP front camera",
+            "100W fast charging",
+            "In-display fingerprint"
+        ],
+        "availability": true,
+        "rating": 4.3
+    },
+    {
+        "id": "P011",
+        "product_name": "Vivo X100 Pro",
+        "product_image": "https://i.ibb.co/Gv6TMCKw/vivo-x100-pro-startrail-blue-official-image.webp",
+        "category": "Smartphones",
+        "price": 999,
+        "description": "Photography excellence with ZEISS optics.",
+        "specification": [
+            "6.78-inch AMOLED",
+            "MediaTek Dimensity 9300",
+            "50MP ZEISS lens",
+            "Wireless charging",
+            "IP68 rating"
+        ],
+        "availability": true,
+        "rating": 4.5
+    },
+    {
+        "id": "P012",
+        "product_name": "Honor Magic6 Pro",
+        "product_image": "https://i.ibb.co/3ymbbhck/honor-power-gold-official-image.webp",
+        "category": "Smartphones",
+        "price": 949,
+        "description": "All-round flagship with cutting-edge display.",
+        "specification": [
+            "6.8-inch AMOLED LTPO",
+            "Snapdragon 8 Gen 3",
+            "180MP periscope camera",
+            "5100mAh battery",
+            "MagicOS 8"
+        ],
+        "availability": true,
+        "rating": 4.4
+    },
+    {
+        "id": "P013",
+        "product_name": "OPPO Find X7 Ultra",
+        "product_image": "https://i.ibb.co/9H2qLrbN/oppo-find-x7-ultra.jpg",
+        "category": "Smartphones",
+        "price": 1099,
+        "description": "Premium design meets powerful photography.",
+        "specification": [
+            "6.82-inch AMOLED",
+            "Snapdragon 8 Gen 3",
+            "Dual periscope lens",
+            "100W fast charging",
+            "ColorOS 14"
+        ],
+        "availability": true,
+        "rating": 4.6
+    },
+    {
+        "id": "P014",
+        "product_name": "Huawei Mate 60 Pro",
+        "product_image": "https://i.ibb.co/Ndrxzfn2/Huawei-Mate-60-Pro-Green.webp",
+        "category": "Smartphones",
+        "price": 899,
+        "description": "Elegant design and strong performance.",
+        "specification": [
+            "6.82-inch OLED",
+            "Kirin 9000S chip",
+            "Triple rear cameras",
+            "66W wired charging",
+            "Satellite calling"
+        ],
+        "availability": true,
+        "rating": 4.2
+    },
+    {
+        "id": "P015",
+        "product_name": "Lenovo Legion Y90",
+        "product_image": "https://i.ibb.co/7FNznsP/Lenovo-Legion-Y90.jpg",
+        "category": "Smartphones",
+        "price": 799,
+        "description": "Gaming beast with cooling system.",
+        "specification": [
+            "6.92-inch AMOLED",
+            "Snapdragon 8 Gen 1",
+            "Double fans for cooling",
+            "144Hz refresh rate",
+            "5600mAh battery"
+        ],
+        "availability": true,
+        "rating": 4.3
+    },
+    {
+        "id": "P016",
+        "product_name": "Infinix Zero Ultra",
+        "product_image": "https://i.ibb.co/8gDvnj3G/65c4b25fda07a35f8a353913-new-infinix-zero-ultra-5g-ram-8gb.webp",
+        "category": "Smartphones",
+        "price": 399,
+        "description": "Affordable phone with 180W fast charging.",
+        "specification": [
+            "6.8-inch AMOLED",
+            "MediaTek Dimensity 920",
+            "200MP camera",
+            "180W Thunder Charge",
+            "Curved edge display"
+        ],
+        "availability": true,
+        "rating": 4.1
+    },
+    {
+        "id": "P017",
+        "product_name": "Tecno Phantom V Fold",
+        "product_image": "https://i.ibb.co/67FCNMdj/Tecno-Phantom-V-Fold2-Karst-Green-price-in-Bangladesh.png",
+        "category": "Smartphones",
+        "price": 1099,
+        "description": "Affordable foldable smartphone.",
+        "specification": [
+            "7.85-inch AMOLED foldable",
+            "Dimensity 9000+",
+            "Triple rear cameras",
+            "4500mAh battery",
+            "Foldable hinge tech"
+        ],
+        "availability": true,
+        "rating": 4.2
+    },
+    {
+        "id": "P018",
+        "product_name": "Fairphone 5",
+        "product_image": "https://i.ibb.co/NdL5tWCY/Fairphone-5-Sky-Blue-500x500.webp",
+        "category": "Smartphones",
+        "price": 699,
+        "description": "Sustainable, repairable, and ethical smartphone.",
+        "specification": [
+            "6.46-inch OLED",
+            "Snapdragon 778G",
+            "Modular design",
+            "5 years warranty",
+            "Sustainable materials"
+        ],
+        "availability": true,
+        "rating": 4.0
+    },
+    {
+        "id": "P019",
+        "product_name": "Nokia XR21",
+        "product_image": "https://i.ibb.co/yFbSR50H/Nokia-XR21-Green-500x500.jpg",
+        "category": "Smartphones",
+        "price": 499,
+        "description": "Durable 5G smartphone with rugged design.",
+        "specification": [
+            "6.49-inch FHD+ IPS",
+            "Snapdragon 695",
+            "MIL-STD-810H certified",
+            "IP68 rating",
+            "5000mAh battery"
+        ],
+        "availability": true,
+        "rating": 4.1
+    },
+    {
+        "id": "P020",
+        "product_name": "Redmi Note 13 Pro+",
+        "product_image": "https://i.ibb.co/FkLKxqWS/Xiaomi-Redmi-Note-13-Pro-Plus-Moonlight-White.webp",
+        "category": "Smartphones",
+        "price": 399,
+        "description": "Value-for-money device with great camera.",
+        "specification": [
+            "6.67-inch AMOLED",
+            "Dimensity 7200-Ultra",
+            "200MP main camera",
+            "67W fast charging",
+            "Curved glass body"
+        ],
+        "availability": true,
+        "rating": 4.3
+    }
+]
