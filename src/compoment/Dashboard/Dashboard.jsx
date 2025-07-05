@@ -154,10 +154,10 @@ const Dashboard = () => {
       <div className="mb-20 ">
         <div className="">
           <div className="bg-[#9538E2] h-52">
-            <h2 className="text-center text-white text-3xl font-bold lg:text-4xl pt-10">
+            <h2 className="text-center text-white text-3xl font-bold lg:text-4xl lg:pt-8 md:pt-5 pt-2">
               Dashboard
             </h2>
-            <p className="text-center text-white py-5">
+            <p className="text-center text-white lg:py-5  p-2">
               Explore the latest gadgets that will take your experience to the
               next level. From smart devices to the coolest accessories, we have
               it all!
@@ -182,13 +182,13 @@ const Dashboard = () => {
               </TabList>
 
               <TabPanel className="">
-                <div className="flex items-center justify-between mt-14 mb-20">
+                <div className="lg:flex md:flex  items-center justify-between mt-14 mb-20 p-2">
                   <div>
-                    <h2 className="text-xl font-semibold">Card</h2>
+                    <h2 className="text-xl font-semibold ">Card</h2>
                   </div>
-                  <div className="flex items-center justify-end gap-x-5">
+                  <div className="lg:flex md:flex items-center justify-end gap-x-5">
                     <div>
-                      <h2 className="text-xl font-semibold">
+                      <h2 className="text-xl font-semibold py-4">
                         Total cost:{" "}
                         <span className="text-[#9538E2]">
                           {totalCardCost.toFixed(2)}
@@ -230,7 +230,7 @@ const Dashboard = () => {
                     </div>
                     <button
                       onClick={paymentButton}
-                      className="btn text-white w-[170px] rounded-lg  hover:bg-[#9538E2] bg-[#7949a0]  "
+                      className="btn text-white font-medium w-[170px] rounded-lg  hover:bg-[#9538E2] bg-[#7949a0] "
                     >
                       Payment
                     </button>
@@ -250,7 +250,7 @@ const Dashboard = () => {
               <TabPanel>
                 <div className="flex items-center justify-items-center justify-between mt-14 mb-20">
                   <div>
-                    <h2 className="text-xl font-semibold">Wishlist</h2>
+                    <h2 className="text-xl font-semibold p-2">Wishlist</h2>
                   </div>
                 </div>
                 <div>

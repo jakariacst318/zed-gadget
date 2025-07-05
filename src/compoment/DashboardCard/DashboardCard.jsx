@@ -9,12 +9,12 @@ const DashboardCard = ({ gadget, onDelete }) => {
 
   return (
     <div className="">
-      <div className="flex border-2 border-[#ebe0f5] rounded-2xl m-5  p-10 max-w-6xl mx-auto ">
+      <div className="md:flex border-2 border-[#ebe0f5] rounded-2xl m-5  p-10 max-w-6xl mx-auto ">
         <div>
-          <img className="w-42 h-38" src={product_image} alt="" />
+          <img className="md:w-42 md:h-38 w-60 h-48 mx-auto" src={product_image} alt="" />
         </div>
-        <div className="ms-16 space-y-3">
-          <h2 className="text-xl font-semibold">{product_name} </h2>
+        <div className="md:ms-16 space-y-3">
+          <h2 className="text-xl font-semibold mt-2">{product_name} </h2>
           <p className="text-[#09080F99]">{description}</p>
           <p className="flex items-center text-[#09080FCC] font-semibold text-lg ">
             Price: &nbsp; {price}{" "}

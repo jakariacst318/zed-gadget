@@ -12,12 +12,12 @@ const DashboardWishlist = ({ gadget, onDelete }) => {
 
   return (
     <div className="">
-      <div className="flex  p-10 max-w-6xl mx-auto border-2 border-[#ebe0f5] rounded-2xl m-5">
+      <div className="md:flex  p-10 max-w-6xl mx-auto border-2 border-[#ebe0f5] rounded-2xl m-5">
         <div>
-          <img className="w-42 h-38" src={product_image} alt="" />
+          <img className="md:w-42 md:h-38 w-60 h-48 mx-auto" src={product_image} alt="" />
         </div>
-        <div className="ms-16 space-y-3">
-          <h2 className="text-xl font-semibold">{product_name} </h2>
+        <div className="md:ms-16 space-y-3">
+          <h2 className="text-xl font-semibold mt-2">{product_name} </h2>
           <p className="text-[#09080F99]">{description}</p>
           <p className="flex items-center text-[#09080FCC] font-semibold text-lg ">
             Price: &nbsp; {price}{" "}
@@ -39,7 +39,7 @@ const DashboardWishlist = ({ gadget, onDelete }) => {
         <div className=" mx-auto">
           <button
             onClick={() => onDelete(id)}
-            className="btn text-3xl bg-[#9538E2] text-white hover:bg-red-600 "
+            className="btn text-3xl bg-[#9538E2] mt-2 text-white hover:bg-red-600 "
           >
             <MdDeleteForever />
           </button>
