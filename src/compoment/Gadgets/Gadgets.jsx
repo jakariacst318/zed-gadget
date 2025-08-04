@@ -8,7 +8,7 @@ const Gadgets = () => {
     fetch("/zedGadget.json")
       .then((res) => res.json())
       .then((data) => setGadget(data));
-    console.log(gadgets);
+    // console.log(gadgets);
   });
 
   return (

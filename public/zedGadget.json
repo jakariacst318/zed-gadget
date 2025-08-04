@@ -4,7 +4,7 @@
         "product_name": "Apple iPhone 15 Pro Max",
         "product_image": "https://i.ibb.co/wNw2w678/apple-iphone-15-pro-max-natural-titanium-official-image.webp",
         "category": "Smartphones",
-        "price": 1299,
+        "price": 164999,
         "description": "Experience the ultimate smartphone with the iPhone 15 Pro Max.",
         "specification": [
             "6.7-inch Super Retina XDR display",
@@ -21,7 +21,7 @@
         "product_name": "Samsung Galaxy S24 Ultra",
         "product_image": "https://i.ibb.co/XrNZ8KNy/samsung-galaxy-s24-cell-phone-Golden-256gb-ai.jpg",
         "category": "Smartphones",
-        "price": 1199,
+        "price": 119999,
         "description": "Capture epic shots with Galaxy S24 Ultra's pro-grade camera.",
         "specification": [
             "6.8-inch QHD+ AMOLED display",
@@ -38,7 +38,7 @@
         "product_name": "Google Pixel 8 Pro",
         "product_image": "https://i.ibb.co/pvcG5RyJ/pixel-8-pro-4-porcelain.webp",
         "category": "Smartphones",
-        "price": 999,
+        "price": 53099,
         "description": "Experience the best of Android with Google Pixel 8 Pro.",
         "specification": [
             "6.7-inch LTPO OLED display",
@@ -55,7 +55,7 @@
         "product_name": "OnePlus 12",
         "product_image": "https://i.ibb.co/3Y4TTQsm/Oneplus-12-800x800.png",
         "category": "Smartphones",
-        "price": 799,
+        "price": 47099,
         "description": "Fast, smooth, and powerful smartphone experience.",
         "specification": [
             "6.8-inch AMOLED 120Hz display",
@@ -72,7 +72,7 @@
         "product_name": "Xiaomi 14 Pro",
         "product_image": "https://i.ibb.co/7ddVB8qj/xiaomi-14-pro-1.jpg",
         "category": "Smartphones",
-        "price": 699,
+        "price": 26099,
         "description": "Performance meets design with Xiaomi 14 Pro.",
         "specification": [
             "6.73-inch AMOLED display",
@@ -89,7 +89,7 @@
         "product_name": "Nothing Phone 2",
         "product_image": "https://i.ibb.co/YF2wkkwS/nothing-8.jpg",
         "category": "Smartphones",
-        "price": 599,
+        "price": 26599,
         "description": "A unique smartphone with Glyph interface.",
         "specification": [
             "6.7-inch OLED 120Hz display",
@@ -106,7 +106,7 @@
         "product_name": "Sony Xperia 1 V",
         "product_image": "https://i.ibb.co/svkDjfmP/Sony-Xperia-1-V.webp",
         "category": "Smartphones",
-        "price": 1399,
+        "price": 39000,
         "description": "Professional camera features in your pocket.",
         "specification": [
             "6.5-inch 4K OLED",
@@ -123,7 +123,7 @@
         "product_name": "ASUS ROG Phone 8",
         "product_image": "https://i.ibb.co/7J9XKWKV/asus-rog-phone-8-rebel-grey-official-image.webp",
         "category": "Smartphones",
-        "price": 1099,
+        "price": 23099,
         "description": "The ultimate gaming smartphone experience.",
         "specification": [
             "6.78-inch AMOLED 165Hz display",
@@ -140,7 +140,7 @@
         "product_name": "Motorola Edge 50 Ultra",
         "product_image": "https://i.ibb.co/ycRr7LC8/Motorola-Edge-50-Ultra-Nordic-Wood.webp",
         "category": "Smartphones",
-        "price": 899,
+        "price": 38850,
         "description": "Premium design with AI-powered features.",
         "specification": [
             "6.7-inch OLED 144Hz",
@@ -157,7 +157,7 @@
         "product_name": "Realme GT 6 Pro",
         "product_image": "https://i.ibb.co/qLBv54GG/Realme-GT5-Pro-Black.webp",
         "category": "Smartphones",
-        "price": 699,
+        "price": 24099,
         "description": "Speed and performance redefined.",
         "specification": [
             "6.74-inch AMOLED 144Hz",
@@ -174,7 +174,7 @@
         "product_name": "Vivo X100 Pro",
         "product_image": "https://i.ibb.co/Gv6TMCKw/vivo-x100-pro-startrail-blue-official-image.webp",
         "category": "Smartphones",
-        "price": 999,
+        "price": 25999,
         "description": "Photography excellence with ZEISS optics.",
         "specification": [
             "6.78-inch AMOLED",
@@ -191,7 +191,7 @@
         "product_name": "Honor Magic6 Pro",
         "product_image": "https://i.ibb.co/3ymbbhck/honor-power-gold-official-image.webp",
         "category": "Smartphones",
-        "price": 949,
+        "price": 19499,
         "description": "All-round flagship with cutting-edge display.",
         "specification": [
             "6.8-inch AMOLED LTPO",
@@ -208,7 +208,7 @@
         "product_name": "OPPO Find X7 Ultra",
         "product_image": "https://i.ibb.co/9H2qLrbN/oppo-find-x7-ultra.jpg",
         "category": "Smartphones",
-        "price": 1099,
+        "price": 79999,
         "description": "Premium design meets powerful photography.",
         "specification": [
             "6.82-inch AMOLED",
@@ -225,7 +225,7 @@
         "product_name": "Huawei Mate 60 Pro",
         "product_image": "https://i.ibb.co/Ndrxzfn2/Huawei-Mate-60-Pro-Green.webp",
         "category": "Smartphones",
-        "price": 899,
+        "price": 28999,
         "description": "Elegant design and strong performance.",
         "specification": [
             "6.82-inch OLED",
@@ -242,7 +242,7 @@
         "product_name": "Lenovo Legion Y90",
         "product_image": "https://i.ibb.co/7FNznsP/Lenovo-Legion-Y90.jpg",
         "category": "Smartphones",
-        "price": 799,
+        "price": 10799,
         "description": "Gaming beast with cooling system.",
         "specification": [
             "6.92-inch AMOLED",
@@ -259,7 +259,7 @@
         "product_name": "Infinix Zero Ultra",
         "product_image": "https://i.ibb.co/8gDvnj3G/65c4b25fda07a35f8a353913-new-infinix-zero-ultra-5g-ram-8gb.webp",
         "category": "Smartphones",
-        "price": 399,
+        "price": 30499,
         "description": "Affordable phone with 180W fast charging.",
         "specification": [
             "6.8-inch AMOLED",
@@ -276,7 +276,7 @@
         "product_name": "Tecno Phantom V Fold",
         "product_image": "https://i.ibb.co/67FCNMdj/Tecno-Phantom-V-Fold2-Karst-Green-price-in-Bangladesh.png",
         "category": "Smartphones",
-        "price": 1099,
+        "price": 49990,
         "description": "Affordable foldable smartphone.",
         "specification": [
             "7.85-inch AMOLED foldable",
@@ -293,7 +293,7 @@
         "product_name": "Fairphone 5",
         "product_image": "https://i.ibb.co/NdL5tWCY/Fairphone-5-Sky-Blue-500x500.webp",
         "category": "Smartphones",
-        "price": 699,
+        "price": 44999,
         "description": "Sustainable, repairable, and ethical smartphone.",
         "specification": [
             "6.46-inch OLED",
@@ -310,7 +310,7 @@
         "product_name": "Nokia XR21",
         "product_image": "https://i.ibb.co/yFbSR50H/Nokia-XR21-Green-500x500.jpg",
         "category": "Smartphones",
-        "price": 499,
+        "price": 50499,
         "description": "Durable 5G smartphone with rugged design.",
         "specification": [
             "6.49-inch FHD+ IPS",
@@ -327,7 +327,7 @@
         "product_name": "Redmi Note 13 Pro+",
         "product_image": "https://i.ibb.co/FkLKxqWS/Xiaomi-Redmi-Note-13-Pro-Plus-Moonlight-White.webp",
         "category": "Smartphones",
-        "price": 399,
+        "price": 4399,
         "description": "Value-for-money device with great camera.",
         "specification": [
             "6.67-inch AMOLED",

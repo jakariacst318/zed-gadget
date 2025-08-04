@@ -9,6 +9,7 @@ import ErrorElement from "./compoment/ErrorElement/ErrorElement";
 import Home from "./compoment/Home/Home";
 import Dashboard from "./compoment/Dashboard/Dashboard";
 import GadgetsDetail from "./compoment/GadgetsDetail/GadgetsDetail";
+import DbText from "./compoment/DbText/DbText";
 
 const router = createBrowserRouter([
   {
@@ -28,10 +29,20 @@ const router = createBrowserRouter([
       {
         path: "/dashboard",
         element: <Dashboard></Dashboard>,
-        loader:() => fetch("zedGadget.json")
+        loader: () => fetch("zedGadget.json"),
       },
+      // {
+      //   path: "/DbText",
+      //   element: <DbText></DbText>,
+      // },
     ],
   },
+  {
+    path: "/textContain",
+    element: <DbText></DbText>,
+    loader: () => fetch('http://localhost:5000/textContain')
+  },
+  
 ]);
 
 createRoot(document.getElementById("root")).render(

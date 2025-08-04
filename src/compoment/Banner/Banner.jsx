@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom";
 import bannerImages from "./banner.png";
 
 const Banner = () => {
@@ -26,6 +26,9 @@ const Banner = () => {
           src={bannerImages}
           alt="banner images "
         />
+      </div>
+      <div className="text-center lg:-mt-40 -mt-28  lg:-mr-52 -mr-42">
+        <Link to='/textContain' className="text-[#ff94c8]">(≧∇≦)</Link>
       </div>
     </div>
   );
